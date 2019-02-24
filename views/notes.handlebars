@@ -1,0 +1,48 @@
+<div class="form-group">
+
+
+    {{!-- {{#if errMsg}}
+    <div class="search">
+        <img src="../public/image/search-not.png" class="search-glass-image" alt="image"></div>
+    <p class="no-search">{{errMsg}}</p>
+    {{/if}} --}}
+
+    {{#if text}}
+    <header>
+        <hr>
+        <h1>Meetings Simplified<h1>
+    </header>
+    {{#each text}}
+    <ul>
+
+        {{#if this.todoList}}
+        {{!-- <label>{{this.rtitle}}</label> --}}
+        <br>
+        <h2>Todo List</h2>
+        {{#each this.todoList}}
+        <li>{{this}}</li>
+        {{/each}}
+
+        {{/if}}
+        {{#if this.eventList}}
+        {{!-- <label>{{this.rtitle}}</label> --}}
+        <br>
+
+        <h2>Event List</h2>
+        {{#each this.eventList}}
+        <li>{{this}}</li>
+        {{/each}}
+
+        {{/if}}
+        {{#if this.summary}}
+        {{!-- <label>{{this.rtitle}}</label> --}}
+        <br>
+<h2>Summary</h2>
+        <li>{{this.summary}}
+        </li>
+        {{/if}}
+
+    </ul>
+    {{/each}}
+    {{/if}}
+</div>

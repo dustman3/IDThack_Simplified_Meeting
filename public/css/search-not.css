@@ -1,0 +1,15 @@
+.no-search{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+}
+.search-glass-image{
+    height: 160px;
+    width: 160px;
+    align-content: center;
+}
+.search{
+    text-align: center;
+    padding: 50px;
+}

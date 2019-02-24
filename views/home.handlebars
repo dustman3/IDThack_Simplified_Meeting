@@ -1,0 +1,21 @@
+<div class="form-group">
+  <header>
+        <hr>
+        <h1>Meetings Simplified<h1>
+    </header>
+
+    {{#if text}}
+    {{#each text}}
+    <ul>
+    {{#if this.rsummary}}
+    <br>
+    <form method="GET" action="/text/{{this._id}}">
+        <button type="submit" value="{{this._id}}">
+             <li> Meeting Summary for - {{this.rsummary.dateStamp}}
+             </li></button>
+    </form>
+    {{/if}}
+    </ul>
+    {{/each}}
+    {{/if}}
+</div>

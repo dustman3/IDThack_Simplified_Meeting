@@ -1,0 +1,330 @@
+.border{
+    margin: 31px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 390px;
+    padding: 0px;
+    border: 1px solid rgb(233, 233, 233);    
+    background-color: rgb(255, 255, 255); 
+    /* box-shadow: 2px 5px gray; */
+    box-shadow: 0 11px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: auto;
+    border-radius: 25px;
+  }
+  .borderF{
+    margin: 11px;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    padding: 0px;
+    border: 1px solid rgb(233, 233, 233);    
+    background-color: rgb(255, 255, 255); 
+    /* box-shadow: 2px 5px gray; */
+    box-shadow: 0 11px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: auto;
+    border-radius: 25px;
+  }
+  .imagealign{
+      width: 300px;
+      height: 290px;
+      border-radius: 25px;
+  }
+
+  .some-align{
+      /* padding: 20px 150px 20px 150px;
+      align-content: center; */
+      text-align: center;
+  }
+  .form-group{
+    width:250px;  /*as you want*/
+    position:relative;
+    padding:0px;
+    margin:0px;
+   }
+   .result {
+    color:brown;
+    font-style:italic;
+   }
+  label{
+      font-size: 12px;
+  }
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: #f44336;
+    margin: 1px 1px;
+    padding: 3px 20px;
+    text-underline-position: below;
+  }
+  .buttonF {
+    background-color: white; 
+    color: black; 
+    border: #f44336;
+    margin: 1px 1px;
+    padding: 3px 20px;
+    text-underline-position: below;
+    text-decoration-color: blue;
+  }
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+  box-sizing: border-box;
+  
+  /* background: #e6e6e6; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+/*---------------------------------------------*/
+input {
+	/* outline: none; */
+	border: none;
+}
+
+
+textarea {
+  /* outline: none; */
+  border: none;
+}
+
+
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.container-contact100 {
+  width: 100%;  
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #767676;
+}
+
+.wrap-contact100 {
+  width: 550px;
+  background: transparent;
+  padding: 0px 0 80px 0;
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.contact100-form {
+  width: 100%;
+}
+
+.contact100-form-title {
+  display: block;
+  font-family: Oswald-Medium;
+  font-size: 30px;
+  color: #382931;
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 35px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 17px;
+}
+.wrap-input102 {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 17px;
+}
+
+.label-input100 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 62px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  font-size: 12px;
+  color: #999999;
+}
+.label-color{
+  color: #040404;
+}
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Oswald-Medium;
+  font-size: 20px;
+  color: #43383e;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+.input101 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Oswald-Medium;
+  font-size: 20px;
+  color: #43383e;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+
+/*---------------------------------------------*/
+input.input100 {
+  height: 52px;
+  padding: 0 20px 0 25px;
+}
+
+
+textarea.input100 {
+  min-height: 99px;
+  padding: 19px 20px 0 23px;
+}
+textarea.input101 {
+  min-height: 199px;
+  padding: 19px 20px 0 23px;
+}
+
+
+/*==================================================================
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 13px;
+}
+
+.wrap-contact100-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 31px;
+  overflow: hidden;
+}
+
+.contact100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #df2351;
+  background: -webkit-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -o-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -moz-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 550px;
+  height: 62px;
+
+  font-family: Oswald-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.wrap-contact100-form-btn:hover .contact100-form-bgbtn {
+  left: 0;
+}
+
+/*------------------------------------------------------------------*/
+.upload-btn{
+  background-color: white;
+}
+
+.set-image{
+  height: 125px;
+  width: 125px;
+  margin: 70px;
+}
+
+.setting-image{
+  text-align: center;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
